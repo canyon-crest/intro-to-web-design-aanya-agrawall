@@ -1,1 +1,99 @@
+body{
+    background-color: rgb(111, 163, 215);
+    color: rgb(37, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
 
+#container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(207, 224, 241);
+    padding: 40px
+
+}
+
+h1{
+    background-color: rgb(224, 241, 255);
+    border: rgb(107, 128, 232), solid, 3px;
+    border-radius: 15px;
+    padding: 8px;
+    padding-top: 10px;
+    /* margin-bottom: 10px; */
+    width: 80%;
+    text-align:center;
+    margin: 0px auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+h3{
+    padding: 3px, 0px, 0px, 5px;
+    border-radius: 15px;
+    width: 22%;
+    text-align: left;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+img{
+    float: left;
+    width: 200px;
+    border:rgb(107, 128, 232) solid 3px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+a:link{
+    color: rgb(68, 125, 190);
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(80, 5, 192);
+}
+
+a:hover{
+    color:aqua;
+}
+
+a:active{
+    color:blue;
+}
+
+#pic1{
+    float: left;
+    margin-left: 5px;
+}
+
+#pic2{
+    float: right;
+    margin-right: 5px;
+    margin-left: 7px;
+}
+
+#pic3{
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+
+#p2{
+    border: white dotted 3px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* CLASS RULE */
+.highlight{
+    font-weight: bold;
+    background-color: rgb(245, 248, 255);
+    border-radius: 15px;
+    padding: 3px;
+}
